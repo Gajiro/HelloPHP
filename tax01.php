@@ -2,21 +2,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ほかの変数を代入</title>
+<title>無題ドキュメント</title>
 </head>
 
 <body>
+
 <?php
-	 $num1 = 320;
-  $num2 =& $num1;
-  $num1 = 45;
-  print "num1=" . $num1 . "<br>";
-  print "num2=" . $num2 . "<br>";
-
-
+	define("TAX", 0.05);
+	$price1 = 100 * ( 1 + TAX );
+	$price2 =  84 * ( 1 + TAX );
+	$price3 = 180 * ( 1 + TAX );
+	
+	print "price1=" . $price1 . "<br>";
+	print "price2=" . $price2 . "<br>";
+	print "price3=" . $price3 . "<br>";
 
 ?>
-
 
 </body>
 </html>
