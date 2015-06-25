@@ -7,22 +7,11 @@
 
 <body>
 <?php
-$sei = "加藤";
-$mei = "裕三";
+$mile = 1.6;
+$Aom_Tok = 715/$mile;
 
-print <<< TABLE
-<table>
-<table border = "1" text-align="center">
-<tr>
-<td>姓</td>
-<td>名</td>
-</tr>
-<tr>
-<td>$sei</td>
-<td>$mei</td>
-</tr>
-</table>
-TABLE;
+print "東京{$Aom_Tok}マイル";
+
 ?>
 </body>
 </html>
