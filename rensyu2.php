@@ -9,8 +9,14 @@
 <?php
 $mile = 1.6;
 $Aom_Tok = 715/$mile;
+$Aom_Mor = 180/$mile;
+$Aom_Sen = 350/$mile;
 
 print "東京{$Aom_Tok}マイル";
+print "<br>";
+print "盛岡{$Aom_Mor}マイル";
+print "<br>";
+print "仙台{$Aom_Sen}マイル";
 
 ?>
 </body>
