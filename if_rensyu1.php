@@ -7,22 +7,17 @@
 
 <body>
 <?php
-$sei = "加藤";
-$mei = "裕三";
+$old = 29;
 
-print <<< TABLE
-<table>
-<table border = "1">
-<tr>
-<td align="center">姓</td>
-<td align="center">名</td>
-</tr>
-<tr>
-<td>$sei</td>
-<td>$mei</td>
-</tr>
-</table>
-TABLE;
+if($old >= 20){
+	print "<p>成人です</p>";
+	
+	}
+
 ?>
+
+
+
+
 </body>
 </html>

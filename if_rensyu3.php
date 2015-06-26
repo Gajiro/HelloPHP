@@ -7,22 +7,25 @@
 
 <body>
 <?php
-$sei = "加藤";
-$mei = "裕三";
+$blood = "O";
 
-print <<< TABLE
-<table>
-<table border = "1">
-<tr>
-<td align="center">姓</td>
-<td align="center">名</td>
-</tr>
-<tr>
-<td>$sei</td>
-<td>$mei</td>
-</tr>
-</table>
-TABLE;
+if($blood == "A"){
+	print "A型です";
+	}else if($blood == "B"){
+		print "B型です";
+		}else if($blood == "O"){
+		print "O型です";
+		}else if($blood == "AB"){
+		print "AB型です";
+		}else{
+		print "血液型を入力してください";
+		}
+
+
 ?>
+
+
+
+
 </body>
 </html>

@@ -7,22 +7,21 @@
 
 <body>
 <?php
-$sei = "加藤";
-$mei = "裕三";
+$money = 10000;
 
-print <<< TABLE
-<table>
-<table border = "1">
-<tr>
-<td align="center">姓</td>
-<td align="center">名</td>
-</tr>
-<tr>
-<td>$sei</td>
-<td>$mei</td>
-</tr>
-</table>
-TABLE;
+if($money <= 0){
+	print "貯金がありません";
+	}else if($money <= 1000){
+		print "貯金がわずかです";
+		}else{
+		print "貯金があります";
+		}
+
+
 ?>
+
+
+
+
 </body>
 </html>

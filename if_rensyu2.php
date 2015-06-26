@@ -7,22 +7,20 @@
 
 <body>
 <?php
-$sei = "加藤";
-$mei = "裕三";
+$sex = "男";
 
-print <<< TABLE
-<table>
-<table border = "1">
-<tr>
-<td align="center">姓</td>
-<td align="center">名</td>
-</tr>
-<tr>
-<td>$sei</td>
-<td>$mei</td>
-</tr>
-</table>
-TABLE;
+if($sex == "男"){
+	print "<p>男性です</p>";
+	
+	}
+if($sex == "女"){
+	print "<p>女性です</p>";
+	}
+
 ?>
+
+
+
+
 </body>
 </html>

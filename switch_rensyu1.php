@@ -7,22 +7,30 @@
 
 <body>
 <?php
-$sei = "加藤";
-$mei = "裕三";
+$blood = "O";
 
-print <<< TABLE
-<table>
-<table border = "1">
-<tr>
-<td align="center">姓</td>
-<td align="center">名</td>
-</tr>
-<tr>
-<td>$sei</td>
-<td>$mei</td>
-</tr>
-</table>
-TABLE;
+switch($blood){
+	case "A":
+	print "A型です";
+	break;
+	case "B":
+	print "B型です";
+	break;
+	case "AB":
+	print "AB型です";
+	break;
+	case "O":
+	print "O型です";
+	break;
+	default:print "血液型を入力してください";
+	
+	}
+
+
 ?>
+
+
+
+
 </body>
 </html>

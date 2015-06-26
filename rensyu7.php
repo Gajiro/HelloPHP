@@ -7,22 +7,17 @@
 
 <body>
 <?php
-$sei = "加藤";
-$mei = "裕三";
+$carrot = 50;
+$potato = 80;
+$tomato = 100;
 
-print <<< TABLE
-<table>
-<table border = "1">
-<tr>
-<td align="center">姓</td>
-<td align="center">名</td>
-</tr>
-<tr>
-<td>$sei</td>
-<td>$mei</td>
-</tr>
-</table>
-TABLE;
+$sum = ($carrot*2) + ($potato*3) + ($tomato*4)
+
 ?>
+
+
+<p>にんじん2本、ジャガイモ3個、トマト4個を購入した時の合計金額 <?php echo $sum ?>円です</p>
+
+
 </body>
 </html>
