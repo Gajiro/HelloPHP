@@ -7,7 +7,7 @@
 
 <body>
 <?php
-$name = "山口";
+$name = "山口123";
 print 'こんにちわ、 $name さん';
 print '<br>';
 print "こんにちわ、 $name さん";
