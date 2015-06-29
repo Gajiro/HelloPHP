@@ -14,12 +14,11 @@ $j = 0;
 for( $i = 1; $i <= 10; $i++){
 	if($i % 2 ==0){
 		echo '<tr bgcolor="#cfcfcf"><td>' . $i . '</td>';
-		}else{
+			}else{
 			echo '<tr bgcolor="#fcfcfc"><td>' . $i . '</td>';
 			}
-			$j += $i;
-			echo "<td>" . $j . "</td>";
-			echo "</tr>";
+	$j += $i;
+	echo "<td>" . $j . "</td></tr>";
 	}
 
 ?>

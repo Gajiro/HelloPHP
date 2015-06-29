@@ -11,15 +11,16 @@
 <?php
 
 for( $i = 1; $i <= 40; $i++){
-	if(($i % 3 == 0 || strstr($i, '3'))&&($i % 8 == 0 || strstr($i, '8'))){
-		echo $i . "　YES! OK!<br>";
-			}elseif($i % 3 == 0 || strstr($i, '3')){
-			echo $i . "　YES!<br>";
-				}elseif($i % 8 == 0 || strstr($i, '8')){
-				echo $i . "　OK!<br>";
-					}else{
-					echo $i . "<br>";
-						}	
+	echo $i ;
+	
+	if($i % 3 == 0 || strstr($i, '3')){
+			echo "　YES!";
+			}
+	if($i % 8 == 0 || strstr($i, '8')){
+			echo "　OK!";
+			}	
+	
+	echo  "<br>";
 	
 	}
 	
