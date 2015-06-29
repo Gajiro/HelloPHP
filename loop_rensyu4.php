@@ -6,17 +6,16 @@
 </head>
 
 <body>
+
+<select name="selectBoxName">
 <?php
-$money = 1000;
-
-echo ($money >= 1000)?"入場できます":"入場できません"; //こちらの方がスマート
-
-
-/* $hantei =($money >= 1000)?"入場できます":"入場できません";
-
-print $hantei;	
-*/
+for ($num = 0;$num <= 23;$num++){
+	if($num >= 15){
+		echo '<option value="' . $num . '">' . $num . '</option>\n';
+		}
+	}
 ?>
-
+</select>
+時
 </body>
 </html>

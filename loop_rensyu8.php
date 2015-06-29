@@ -5,18 +5,20 @@
 <title>無題ドキュメント</title>
 </head>
 
+
 <body>
+<table border="1">
 <?php
-$money = 1000;
 
-echo ($money >= 1000)?"入場できます":"入場できません"; //こちらの方がスマート
+for( $i = 1; $i <= 9; $i++){
+	echo "<tr>";
+		for($j = 1; $j <= 9; $j++){
+			echo "<td>" . $i*$j . "</td>";
+			}
+	echo "</tr>";
+	}
 
-
-/* $hantei =($money >= 1000)?"入場できます":"入場できません";
-
-print $hantei;	
-*/
 ?>
-
+</table>
 </body>
 </html>

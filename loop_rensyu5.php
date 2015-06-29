@@ -5,17 +5,19 @@
 <title>無題ドキュメント</title>
 </head>
 
+
 <body>
+
 <?php
-$money = 1000;
 
-echo ($money >= 1000)?"入場できます":"入場できません"; //こちらの方がスマート
+$num = 1;
+while( $num <= 20){
+	if($num % 2 == 0){
+		echo $num . "<br>";
+		}
+	$num++;
+	}
 
-
-/* $hantei =($money >= 1000)?"入場できます":"入場できません";
-
-print $hantei;	
-*/
 ?>
 
 </body>

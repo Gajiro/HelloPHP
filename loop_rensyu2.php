@@ -5,18 +5,15 @@
 <title>無題ドキュメント</title>
 </head>
 
+
 <body>
 <?php
-$money = 1000;
 
-echo ($money >= 1000)?"入場できます":"入場できません"; //こちらの方がスマート
+for ( $num = 1; $num <= 5; $num++){
+	echo $num . "回目のループです<br>\n";
+	}
 
 
-/* $hantei =($money >= 1000)?"入場できます":"入場できません";
-
-print $hantei;	
-*/
 ?>
-
 </body>
 </html>

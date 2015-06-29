@@ -7,15 +7,13 @@
 
 <body>
 <?php
-$money = 1000;
 
-echo ($money >= 1000)?"入場できます":"入場できません"; //こちらの方がスマート
+$num = 0;
+while($num < 5){
+	echo "こんにちは<br>\n";
+	$num++;
+	}
 
-
-/* $hantei =($money >= 1000)?"入場できます":"入場できません";
-
-print $hantei;	
-*/
 ?>
 
 </body>

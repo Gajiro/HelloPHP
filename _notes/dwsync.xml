@@ -32,7 +32,7 @@
 <file name="if_rensyu1.php" server="sv1" local="130797570536845548" remote="130797565800000000" />
 <file name="if_rensyu2.php" server="sv1" local="130797580223173052" remote="130797580200000000" />
 <file name="if_rensyu3.php" server="sv1" local="130797583637476016" remote="130797583200000000" />
-<file name="if_rensyu4.php" server="sv1" local="130797586900100427" remote="130797586800000000" />
+<file name="if_rensyu4.php" server="sv1" local="130797586900100427" remote="130800165000000000" />
 <file name="if_rensyu5.php" server="sv1" local="130797628234437232" remote="130797628200000000" />
 <file name="if_rensyu6.php" server="sv1" local="130797676789681168" remote="130797676800000000" />
 <file name="switch_rensyu1.php" server="sv1" local="130797593294401848" remote="130797594600000000" />
@@ -42,4 +42,13 @@
 <file name="switch_rensyu3.php" server="sv1" local="130797712211943278" remote="130797712200000000" />
 <file name="if_rensyu9.php" server="sv1" local="130797718241794090" remote="130797718200000000" />
 <file name="sanko_rensyu1.php" server="sv1" local="130797716173387178" remote="130797715800000000" />
+<file name="loop_rensyu1.php" server="sv1" local="130800177255751192" remote="130800177000000000" />
+<file name="loop_rensyu2.php" server="sv1" local="130800184266205015" remote="130800184200000000" />
+<file name="loop_rensyu3.php" server="sv1" local="130800173847240352" remote="130800173400000000" />
+<file name="loop_rensyu4.php" server="sv1" local="130800191135010805" remote="130800190800000000" />
+<file name="loop_rensyu5.php" server="sv1" local="130800197286026857" remote="130800196800000000" />
+<file name="loop_rensyu6.php" server="sv1" local="130800290440158998" remote="130800290400000000" />
+<file name="loop_rensyu7.php" server="sv1" local="130800223041413068" remote="130800222600000000" />
+<file name="loop_rensyu8.php" server="sv1" local="130800270858249021" remote="130800270600000000" />
+<file name="loop_rensyu9.php" server="sv1" local="130800298901234243" remote="130800298800000000" />
 </dwsync>

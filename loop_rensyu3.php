@@ -5,17 +5,17 @@
 <title>無題ドキュメント</title>
 </head>
 
+
 <body>
+
 <?php
-$money = 1000;
+for ($num = 0 , $sum = 0;$num <= 100;$num++){
+	if(($num%4) == 0){
+		$sum += $num;
+		}
+	}
+echo "合計は" . $sum;
 
-echo ($money >= 1000)?"入場できます":"入場できません"; //こちらの方がスマート
-
-
-/* $hantei =($money >= 1000)?"入場できます":"入場できません";
-
-print $hantei;	
-*/
 ?>
 
 </body>
