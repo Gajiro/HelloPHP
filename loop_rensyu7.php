@@ -9,14 +9,14 @@
 <body>
 
 <?php
-$sum = 0;
 for( $i = 1; $i <= 5; $i++){
 	echo "0";
+	$sum = 0;
 	for( $k = 1; $k <= $i; $k++){
 		echo  "+" . $k ;
+		$sum += $k ;
 	}
-	$sum += $i ;
-	echo "=" . $sum . "<br>";	
+echo "=" . $sum . "<br>";	
 	
 }
 
