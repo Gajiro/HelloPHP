@@ -5,20 +5,15 @@
 <title>無題ドキュメント</title>
 </head>
 
-
 <body>
-<table border="1">
+
 <?php
 
-for( $i = 1; $i <= 9; $i++){
-	echo "<tr>";
-	for($j = 1; $j <= 9; $j++){
-		echo "<td>" . $i*$j . "</td>";
-			}
-	echo "</tr>";
-}
+$a = array(100,200,300);
+
+print_r($a);
+
 
 ?>
-</table>
 </body>
 </html>

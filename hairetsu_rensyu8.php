@@ -5,20 +5,15 @@
 <title>無題ドキュメント</title>
 </head>
 
-
 <body>
-<table border="1">
+
 <?php
 
-for( $i = 1; $i <= 9; $i++){
-	echo "<tr>";
-	for($j = 1; $j <= 9; $j++){
-		echo "<td>" . $i*$j . "</td>";
-			}
-	echo "</tr>";
-}
+$lang_test = array('鈴木' => 92, '佐藤' => 74, '中村' => 42, '三浦' => 65);
+
+print_r($lang_test);
+
 
 ?>
-</table>
 </body>
 </html>

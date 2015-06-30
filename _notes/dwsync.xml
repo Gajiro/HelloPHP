@@ -48,7 +48,24 @@
 <file name="loop_rensyu4.php" server="sv1" local="130800191135010805" remote="130800190800000000" />
 <file name="loop_rensyu5.php" server="sv1" local="130800197286026857" remote="130800196800000000" />
 <file name="loop_rensyu6.php" server="sv1" local="130800290440158998" remote="130800290400000000" />
-<file name="loop_rensyu7.php" server="sv1" local="130800223041413068" remote="130800222600000000" />
-<file name="loop_rensyu8.php" server="sv1" local="130800270858249021" remote="130800270600000000" />
-<file name="loop_rensyu9.php" server="sv1" local="130800298901234243" remote="130800298800000000" />
+<file name="loop_rensyu7.php" server="sv1" local="130801022604757760" remote="130801022400000000" />
+<file name="loop_rensyu8.php" server="sv1" local="130801022687102656" remote="130801022400000000" />
+<file name="loop_rensyu9.php" server="sv1" local="130801022778424551" remote="130801022400000000" />
+<file name="hairetsu01.php" server="sv1" local="130801030275470458" remote="130801030200000000" />
+<file name="hairetsu02.php" server="sv1" local="130801035223018446" remote="130801035000000000" />
+<file name="hairetsu03.php" server="sv1" local="130801037821895257" remote="130801037400000000" />
+<file name="hairetsu04.php" server="sv1" local="130801038689959074" remote="130801038600000000" />
+<file name="hairetsu05.php" server="sv1" local="130801039508794118" remote="130801039200000000" />
+<file name="hairetsu_rensyu1.php" server="sv1" local="130801049524584161" remote="130801045200000000" />
+<file name="hairetsu_rensyu2.php" server="sv1" local="130801050574611329" remote="130801050600000000" />
+<file name="hairetsu_rensyu3.php" server="sv1" local="130801065375160643" remote="130801065000000000" />
+<file name="hairetsu_rensyu4.php" server="sv1" local="130801074563548912" remote="130801074600000000" />
+<file name="hairetsu_rensyu5.php" server="sv1" local="130801075967444869" remote="130801075800000000" />
+<file name="hairetsu_rensyu6.php" server="sv1" local="130801060106900531" remote="130801059600000000" />
+<file name="hairetsu_rensyu7.php" server="sv1" local="130801064865228938" remote="130801064400000000" />
+<file name="hairetsu_rensyu8.php" server="sv1" local="130801096185011483" remote="130801152000000000" />
+<file name="hairetsu_rensyu9.php" server="sv1" local="130801163107080178" remote="130801162800000000" />
+<file name="hairetsu_rensyu10.php" server="sv1" local="130801182514018231" remote="130801182000000000" />
+<file name="hairetsu_rensyu11.php" server="sv1" local="130801189301625254" remote="130801189200000000" />
+<file name="hairetsu_rensyu12.php" server="sv1" local="130801189787468473" remote="130801189800000000" />
 </dwsync>

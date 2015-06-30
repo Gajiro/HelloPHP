@@ -5,20 +5,17 @@
 <title>無題ドキュメント</title>
 </head>
 
-
 <body>
-<table border="1">
+
 <?php
 
-for( $i = 1; $i <= 9; $i++){
-	echo "<tr>";
-	for($j = 1; $j <= 9; $j++){
-		echo "<td>" . $i*$j . "</td>";
-			}
-	echo "</tr>";
-}
+$e['one'] = 1;
+$e['two'] = 2;
+$e['title'] = '連想配列';
+
+print_r($e);
+
 
 ?>
-</table>
 </body>
 </html>

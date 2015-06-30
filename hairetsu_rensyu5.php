@@ -5,20 +5,20 @@
 <title>無題ドキュメント</title>
 </head>
 
-
 <body>
-<table border="1">
+
 <?php
 
-for( $i = 1; $i <= 9; $i++){
-	echo "<tr>";
-	for($j = 1; $j <= 9; $j++){
-		echo "<td>" . $i*$j . "</td>";
-			}
-	echo "</tr>";
-}
+$fruit['オレンジ'] = 25;
+$fruit['バナナ']   = 30;
+$fruit['りんご']   = 38;
+$fruit['みかん']   = 62;
+
+
+print_r ($fruit);
+
+
 
 ?>
-</table>
 </body>
 </html>

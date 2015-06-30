@@ -5,20 +5,23 @@
 <title>無題ドキュメント</title>
 </head>
 
-
 <body>
-<table border="1">
+
 <?php
 
-for( $i = 1; $i <= 9; $i++){
-	echo "<tr>";
-	for($j = 1; $j <= 9; $j++){
-		echo "<td>" . $i*$j . "</td>";
-			}
-	echo "</tr>";
+$a[] = '青森';
+$a[] = '弘前';
+$a[] = '八戸';
+$a[4] = 'むつ';
+$a[3] = '三沢';
+
+for($i = 0; $i < count($a); $i++){
+	print $a[$i] ."<br>";
 }
 
+
+
+
 ?>
-</table>
 </body>
 </html>

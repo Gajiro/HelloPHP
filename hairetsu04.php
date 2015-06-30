@@ -5,20 +5,17 @@
 <title>無題ドキュメント</title>
 </head>
 
-
 <body>
-<table border="1">
+
 <?php
 
-for( $i = 1; $i <= 9; $i++){
-	echo "<tr>";
-	for($j = 1; $j <= 9; $j++){
-		echo "<td>" . $i*$j . "</td>";
-			}
-	echo "</tr>";
-}
+$f[0] = 1;
+$f[5] = 2;
+$f['mix'] = '文字列混合';
+
+print_r($f);
+
 
 ?>
-</table>
 </body>
 </html>
