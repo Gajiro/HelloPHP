@@ -11,39 +11,58 @@
 
 <tr>
     <th>番号</th>
-    <th>点数</th>
+    <th>氏名</th>
+	<th>点数</th>
 
 </tr>
 
 <?php
 
 $data = array(
-		array(0, 80),
-		array(1, 60),
-		array(2, 92),
-		array(3, 22),
-		array(4, 50),
+		array("スズキ0", 80),
+		array("スズキ1", 60),
+		array("スズキ2", 92),
+		array("スズキ3", 22),
+		array("スズキ4", 50),
 		);
 $lowScore = 100;
 $highScore = 0;
-$nanaju = 0;
-for($i = 0 ;$i < count($data) ;$i++){
+$over70    = 0;
+
+
+foreach($data as $k => $arr){
+	$name = $arr[0];
+	$score = $arr[1];
+	print "<tr><td>" . $k . "</td><td>" . $name . "</td><td>" . $score . "</td>";
+	if($score > $highScore){
+		$highScore = $score;		
+	}
+	if($score < $lowScore){
+		$lowScore = $score;		
+	}
+	if($score >= 70){
+		$over70++;		
+	}
+	
+}
+
+/*for($i = 0 ;$i < count($data) ;$i++){
 	print "<tr>";
 	for($j = 0 ;$j < count($data[0]) ;$j++){
 		print  "<td>" . $data[$i][$j] . "</td>";
-		if($data[$i][1] >= 70){
+		if($data[1] >= 70){
 			$nanaju++;
 		};
-		if($data[$i][1] > $highScore){
-			$highScore = $data[$i][1];
+		if($data[1] > $highScore){
+			$highScore = $data[1];
 			};
-		if($data[$i][1] < $lowScore){
-			$lowScore = $data[$i][1];
+		if($data[1] < $lowScore){
+			$lowScore = $data[1];
 			};
 	}
 print "</tr>";
 };
-
+*/
 
 ?>
 
@@ -52,7 +71,7 @@ print "</tr>";
 <?php 
 print "最高点：" . $highScore . "点<br>";
 print "最低点：" . $lowScore . "点<br>";
-print "70点以上：" . $nanaju . "名";
+print "70点以上：" . $over70 . "名";
 
 ?>
 </body>
