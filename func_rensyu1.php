@@ -12,21 +12,17 @@
 <?php
 
 function callName($name ="ゲスト"){
-	if ($name == null){
+	/* if ($name == null){
 		print"いらっしゃいませ、ゲストさん";
-	}else{
-	print "いらっしゃいませ、" . $name . "さん";
-	};
+	}else{ */
+	print "いらっしゃいませ、" . $name . "さん<br>";
+	//};
 	};
 
-$AAA ="鈴木";
-callName($AAA);
-//callName();
-$VVV ="";
-callName($VVV);
 
-$BBB ="佐藤";
-callName($BBB);
+callName("5465");
+callName("煤く");
+callName("djhdt");
 callName();
 callName("Sato");
 
