@@ -18,40 +18,38 @@ td.today{
 </head>
 <body>
 
-
 <?php
-
-$dt = getdate(); 
-$fm = mktime(0, 0, 0, $dt["mon"], 1 ,$dt["year"]); 
-$fw = date("w", $fm);
-$ld = date("t", $fm); 
-$em = mktime(0, 0, 0, $dt["mon"], $ld ,$dt["year"]); 
-$ew = date("w", $em); 
-$wd = array("?", "?", "?", "?", "?", "?", "?"); 
+$dt = getdate(); //????????????
+$fm = mktime(0, 0, 0, $dt["mon"], 1 ,$dt["year"]); //???????
+$fw = date("w", $fm); //??????????????0????6?
+$ld = date("t", $fm); //????????????
+$em = mktime(0, 0, 0, $dt["mon"], $ld ,$dt["year"]); //????????
+$ew = date("w", $em); //???????????
+$wd = array("?", "?", "?", "?", "?", "?", "?"); //???????
 print "<h1>".$dt["month"].",".$dt["year"]."</h1>";
+
 print "<table border='2'>";
 print "<tr>";
 foreach($wd as $value){
-  print "<th>".$value."</th>"; 
+  print "<th>".$value."</th>"; //????????
 }
 print "</tr>";
 print "<tr>";
 for($i=0; $i<$fw; $i++){
-  print "<td>&nbsp;</td>";
+  print "<td>&nbsp;</td>"; //????????
 }
 for($j=1; $j<=$ld; $j++){
   if($j == $dt["mday"]){
-    print "<td class='today'>".$j."</td>"; 
+    print "<td class='today'>".$j."</td>"; //??????class?today???
   } else{
-    print "<td>".$j."</td>";
-  }  
-}
-  if(($i+$j)%7 == 0){ 
+	print "<td>".$j."</td>";
+  }
+  
+  if(($i+$j)%7 == 0){ //7??????
     print "</tr><tr>";
   }
 for($k=0; $k<6-$ew; $k++){
-  print "<td>&nbsp;</td>"; 
-}
+  print "<td>&nbsp;</td>"; //????????
 print "</tr>";
 print "</table>";
 ?>
