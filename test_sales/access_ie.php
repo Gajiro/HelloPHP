@@ -1,9 +1,9 @@
 <?php
-$USER='i505';
-$PW='May.2015';
-$dnsinfo = "mysql:dbname=i505;host=sv1;charset=utf8";
+$USER= 'root';
+$PW= 'daidai';
+$dnsinfo= "mysql:dbname=salesmanagement;host=localhost;charset=utf8";
 try{
-	$pdo = new PDO($dnsinfo, $USER, $PW);
+	$pdo = new PDO($dnsinfo,$USER,$PW);
 	$res = "接続しました";
 }catch(PDOException $e){
 	$res = $e->getMessage();
