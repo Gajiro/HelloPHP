@@ -1,8 +1,14 @@
 <?php
+
 $res ="";
-$USER='i505';
+$USER='root';
+$PW='daidai';
+
+/*$USER='i505';
 $PW='May.2015';
-$dnsinfo = "mysql:dbname=i505;host=sv1;charset=utf8";
+$dnsinfo = "mysql:dbname=i505;host=sv1;charset=utf8";*/
+
+$dnsinfo = "mysql:dbname=salesmanagement;host=localhost;charset=utf8";
 $pdo = new PDO($dnsinfo, $USER, $PW);
 
 if(isset($_POST['submit'])){
