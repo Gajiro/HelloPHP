@@ -4,4 +4,7 @@
 <file name="insert_goods02.php" server="sv1" local="130807189506920647" remote="130807189200000000" />
 <file name="select_goods.php" server="sv1" local="130807197253192871" remote="130807197000000000" />
 <file name="select_goods02.php" server="sv1" local="130807218215446142" remote="130807218000000000" />
+<file name="update_goods03.php" server="sv1" local="130808008150566645" remote="130808008200000000" />
+<file name="delete_goods.php" server="sv1" local="130808054723720082" remote="130808055000000000" />
+<file name="delete_goods02.php" server="sv1" local="130808060152218853" remote="130808059800000000" />
 </dwsync>
