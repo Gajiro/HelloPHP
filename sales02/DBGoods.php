@@ -18,14 +18,14 @@ class DBGoods extends DB{
 			<input type='hidden' name='id' value='{$row[0]}'>
 			<input type='submit' name='update' value='更新'>
 			</form></td>
-			eof;
+eof;
 			
 			$data .= <<<eof
 			<td><form method='post' action=''>
 			<input type='hidden' name='id' value='{$row[0]}'>
 			<input type='submit' name='delete' value='削除'	onClick='return CheckDelete()'>
 			</form></td>
-			eof;
+eof;
 			
 			$data .="</tr>";
 			}

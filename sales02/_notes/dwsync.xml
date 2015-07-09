@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="db.php" server="sv1" local="130808817967556336" remote="130808868600000000" />
-<file name="DBGoods.php" server="sv1" local="130808961010000000" remote="130808961000000000" />
+<file name="DBGoods.php" server="sv1" local="130808969683985484" remote="130808969400000000" />
 <file name="style.css" server="sv1" local="130808819099661731" remote="130808868600000000" />
-<file name="goods.php" server="sv1" local="130808867983144534" remote="130808868600000000" />
+<file name="goods.php" server="sv1" local="130808943580700226" remote="130808969400000000" />
+<file name="DBCustomer.php" server="sv1" local="130808930056559734" remote="130808969400000000" />
+<file name="customer.php" server="sv1" local="130808947053876707" remote="130808969400000000" />
 </dwsync>
