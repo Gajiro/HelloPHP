@@ -14,7 +14,7 @@ class DB{
 			}
 		}
 	
-	public function executeSQL($sql, $array){
+	protected function executeSQL($sql, $array){
 		try{
 			if(!$pdo = $this->Connectdb())
 				return false;

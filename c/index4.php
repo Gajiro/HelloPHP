@@ -1,5 +1,5 @@
 <?php
-require_once('func.php');
+require_once('EvenOdd.php');
 $res ="";
 if(isset($_POST['submit'])){
 	$evenOdd= new EvenOdd();
