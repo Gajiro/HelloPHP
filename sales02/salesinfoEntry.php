@@ -1,31 +1,34 @@
-<?php
-require(DBSalesInfo.php);
-$slip ="";
+﻿<?php
+require('DBSalesInfo.php');
+$slip = "";
 $SalesDate = new DateTime('NOW');
 $SalesDate = $SalesDate->format('Y-m-d');
 $CustomerID = "";
-$dbSalesInfo =new DbSalesInfo();
+$dbSalesInfo = new DbSalesInfo();
+//商品名リストの作成
 $GoodsList = $dbSalesInfo->ListGoods();
 if(isset($_POST['submit'])){
-	$SalesDate = $_POST['SalesDate'];
-	$CustomerID = $_POST['CustomerID'];;	
-	$dbSalesInfo =  InsertSalesinfo();
-	$slip = $dbSalesInfo->SelectSalesinfo($SalesDate, $CustomerID);
-	$CustomerList = $dbSalesInfo->ListCustomerWithSelected($CustomerID);
+  //新規登録処理
+  $SalesDate = $_POST['SalesDate'];
+  $CustomerID = $_POST['CustomerID'];
+  $dbSalesInfo->InsertSalesinfo();
+  //新規登録後だけ登録データを表示
+  $slip = $dbSalesInfo->SelectSalesinfo($SalesDate, $CustomerID);
+  //顧客名リストの作成（選択者を表示）
+  $CustomerList = $dbSalesInfo->ListCustomerWithSelected($CustomerID);
 }else{
-	$CustomerList = $dbSalesInfo->ListCustomer();
+  //顧客名リストの作成
+  $CustomerList = $dbSalesInfo->ListCustomer();
 }
 ?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>売り上げ管理システム</title>
-<link rel="styleseet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<title>売上管理システム</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-
 <div id="menu">
 <ul>
 <li><a href="salesinfo.php">売上情報</a></li>
@@ -35,20 +38,19 @@ if(isset($_POST['submit'])){
 <li><a href="goods.php">商品マスタ</a></li>
 </ul>
 </div>
-
 <h1>売上伝票の新規作成</h1>
 <div id="entry">
-<form action="" method="post">
-<label>日付<input type="date" name="SalesDate" value="<?php echo $SalesDate;?>" required></label>
-<label>顧客名<?php echo $CustomerList;?>></label>
-<label>商品名<?php echo $GoodsList;?>></label>
-<label>数量<input type="number" min="0" id="Quantity" name="Quantity" required></label>
-<input type="submit" name="submit" value=" 登録 ">
+<form method="post" action="">
+<label>日付<input type="date" id="SalesDate" name="SalesDate"
+ value="<?php echo $SalesDate;?>" required></label>
+<label>顧客名<?php echo $CustomerList;?></label>
+<label>商品名<?php echo $GoodsList;?></label>
+<label>数量<input type="number" min="0" id="Quantity"
+ name="Quantity" required></label>
+<input type="submit" value="　　登録　　" name="submit" />
 </form>
 </div>
-
 <div class="ClearFloat"></div>
-<?php echo $slip; ?>
-
+<?php echo $slip;?>
 </body>
 </html>
