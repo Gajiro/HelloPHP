@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ActionsAuthorizeTest.php" server="sv1" local="130833901353077004" remote="130833913800000000" />
+<file name="BasicAuthenticateTest.php" server="sv1" local="130833901353347018" remote="130833913800000000" />
+<file name="BlowfishAuthenticateTest.php" server="sv1" local="130833901353587036" remote="130833913800000000" />
+<file name="ControllerAuthorizeTest.php" server="sv1" local="130833901353807060" remote="130833913800000000" />
+<file name="CrudAuthorizeTest.php" server="sv1" local="130833901354047088" remote="130833913800000000" />
+<file name="DigestAuthenticateTest.php" server="sv1" local="130833901354327082" remote="130833913800000000" />
+<file name="FormAuthenticateTest.php" server="sv1" local="130833901354607100" remote="130833913800000000" />
+</dwsync>

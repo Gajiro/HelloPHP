@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="cake" server="sv1" local="130833901253721251" remote="130833913200000000" />
+<file name="cake.bat" server="sv1" local="130833901253851633" remote="130833913200000000" />
+<file name="cake.php" server="sv1" local="130833901254041269" remote="130833913200000000" />
+<file name="ConsoleErrorHandler.php" server="sv1" local="130833901251121103" remote="130833913200000000" />
+<file name="ConsoleInput.php" server="sv1" local="130833901251331623" remote="130833913200000000" />
+<file name="ConsoleInputArgument.php" server="sv1" local="130833901251571130" remote="130833913200000000" />
+<file name="ConsoleInputOption.php" server="sv1" local="130833901251801137" remote="130833913200000000" />
+<file name="ConsoleInputSubcommand.php" server="sv1" local="130833901252021199" remote="130833913200000000" />
+<file name="ConsoleOptionParser.php" server="sv1" local="130833901252301168" remote="130833913200000000" />
+<file name="ConsoleOutput.php" server="sv1" local="130833901252551477" remote="130833913200000000" />
+<file name="HelpFormatter.php" server="sv1" local="130833901252771543" remote="130833913200000000" />
+<file name="Shell.php" server="sv1" local="130833901253141216" remote="130833913200000000" />
+<file name="ShellDispatcher.php" server="sv1" local="130833901253391228" remote="130833913200000000" />
+<file name="TaskCollection.php" server="sv1" local="130833901253591242" remote="130833913200000000" />
+</dwsync>
